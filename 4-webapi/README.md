@@ -3,6 +3,7 @@
 Run:
 
 ```bash
+dotnet add package Swashbuckle.AspNetCore
 dotnet restore
 dotnet run
 ```
