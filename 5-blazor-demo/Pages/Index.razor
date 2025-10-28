@@ -1,0 +1,10 @@
+@page "/"
+<h3>Welcome to Blazor</h3>
+<p>This is running C# components on the server with SignalR.</p>
+
+<input @bind="name" placeholder="Enter your name" />
+<p>Hello, @name!</p>
+
+@code {
+    private string name = string.Empty;
+}
